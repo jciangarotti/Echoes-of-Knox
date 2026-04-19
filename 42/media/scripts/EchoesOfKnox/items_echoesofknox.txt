@@ -1,0 +1,751 @@
+module EchoesOfKnox
+{
+    imports
+    {
+        Base
+    }
+
+    item MysteriousNote
+    {
+        DisplayName = Mysterious Note,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = MysteriousNote,
+    }
+
+    item DogTag_Subject01
+    {
+        DisplayName = Dog Tag - Subject 01,
+        DisplayCategory = Junk,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = DogTag_Subject01,
+    }
+
+    item DogTag_Subject02
+    {
+        DisplayName = Dog Tag - Subject 02,
+        DisplayCategory = Junk,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = DogTag_Subject02,
+    }
+
+    item DogTag_Subject03
+    {
+        DisplayName = Dog Tag - Subject 03,
+        DisplayCategory = Junk,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = DogTag_Subject03,
+    }
+
+    item DogTag_Subject04
+    {
+        DisplayName = Dog Tag - Subject 04,
+        DisplayCategory = Junk,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = DogTag_Subject04,
+    }
+
+    item DogTag_Subject05
+    {
+        DisplayName = Dog Tag - Subject 05,
+        DisplayCategory = Junk,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = DogTag_Subject05,
+    }
+
+    item DogTag_Subject06
+    {
+        DisplayName = Dog Tag - Subject 06,
+        DisplayCategory = Junk,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = DogTag_Subject06,
+    }
+
+    item DogTag_Subject07
+    {
+        DisplayName = Dog Tag - Subject 07,
+        DisplayCategory = Junk,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = DogTag_Subject07,
+    }
+
+    item CompassWatch_Right
+    {
+        DisplayName = Compass Watch,
+        DisplayCategory = Accessory,
+        ItemType = base:alarmclockclothing,
+        Weight = 0.1,
+        Icon = CompassWatch,
+        AlarmSound = WatchAlarmLoop,
+        BodyLocation = base:rightwrist,
+        ClothingExtraSubmenu = RightWrist,
+        ClothingItem = WristWatch_Right_ClassicBlack,
+        ClothingItemExtra = EchoesOfKnox.CompassWatch_Left,
+        ClothingItemExtraOption = LeftWrist,
+        Cosmetic = true,
+        MetalValue = 3.0,
+        SoundRadius = 7,
+        WorldStaticModel = WatchClassicBlack,
+        Tags = base:hasmetal,
+    }
+
+    item CompassWatch_Left
+    {
+        DisplayName = Compass Watch,
+        DisplayCategory = Accessory,
+        ItemType = base:alarmclockclothing,
+        Weight = 0.1,
+        Icon = CompassWatch,
+        AlarmSound = WatchAlarmLoop,
+        BodyLocation = base:leftwrist,
+        ClothingExtraSubmenu = LeftWrist,
+        ClothingItem = WristWatch_Left_ClassicBlack,
+        ClothingItemExtra = EchoesOfKnox.CompassWatch_Right,
+        ClothingItemExtraOption = RightWrist,
+        Cosmetic = true,
+        MetalValue = 3.0,
+        SoundRadius = 7,
+        WorldStaticModel = WatchClassicBlack,
+        Tags = base:hasmetal,
+    }
+
+    /* --- Journals (70 items: 10 entries x 7 subjects) --- */
+
+    item Journal_Subject01_01
+    {
+        DisplayName = Subject 01 Journal - Entry 1,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject01,
+    }
+
+    item Journal_Subject01_02
+    {
+        DisplayName = Subject 01 Journal - Entry 2,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject01,
+    }
+
+    item Journal_Subject01_03
+    {
+        DisplayName = Subject 01 Journal - Entry 3,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject01,
+    }
+
+    item Journal_Subject01_04
+    {
+        DisplayName = Subject 01 Journal - Entry 4,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject01,
+    }
+
+    item Journal_Subject01_05
+    {
+        DisplayName = Subject 01 Journal - Entry 5,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject01,
+    }
+
+    item Journal_Subject01_06
+    {
+        DisplayName = Subject 01 Journal - Entry 6,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject01,
+    }
+
+    item Journal_Subject01_07
+    {
+        DisplayName = Subject 01 Journal - Entry 7,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject01,
+    }
+
+    item Journal_Subject01_08
+    {
+        DisplayName = Subject 01 Journal - Entry 8,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject01,
+    }
+
+    item Journal_Subject01_09
+    {
+        DisplayName = Subject 01 Journal - Entry 9,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject01,
+    }
+
+    item Journal_Subject01_10
+    {
+        DisplayName = Subject 01 Journal - Entry 10,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject01,
+    }
+
+    item Journal_Subject02_01
+    {
+        DisplayName = Subject 02 Journal - Entry 1,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject02,
+    }
+
+    item Journal_Subject02_02
+    {
+        DisplayName = Subject 02 Journal - Entry 2,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject02,
+    }
+
+    item Journal_Subject02_03
+    {
+        DisplayName = Subject 02 Journal - Entry 3,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject02,
+    }
+
+    item Journal_Subject02_04
+    {
+        DisplayName = Subject 02 Journal - Entry 4,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject02,
+    }
+
+    item Journal_Subject02_05
+    {
+        DisplayName = Subject 02 Journal - Entry 5,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject02,
+    }
+
+    item Journal_Subject02_06
+    {
+        DisplayName = Subject 02 Journal - Entry 6,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject02,
+    }
+
+    item Journal_Subject02_07
+    {
+        DisplayName = Subject 02 Journal - Entry 7,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject02,
+    }
+
+    item Journal_Subject02_08
+    {
+        DisplayName = Subject 02 Journal - Entry 8,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject02,
+    }
+
+    item Journal_Subject02_09
+    {
+        DisplayName = Subject 02 Journal - Entry 9,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject02,
+    }
+
+    item Journal_Subject02_10
+    {
+        DisplayName = Subject 02 Journal - Entry 10,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject02,
+    }
+
+    item Journal_Subject03_01
+    {
+        DisplayName = Subject 03 Journal - Entry 1,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject03,
+    }
+
+    item Journal_Subject03_02
+    {
+        DisplayName = Subject 03 Journal - Entry 2,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject03,
+    }
+
+    item Journal_Subject03_03
+    {
+        DisplayName = Subject 03 Journal - Entry 3,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject03,
+    }
+
+    item Journal_Subject03_04
+    {
+        DisplayName = Subject 03 Journal - Entry 4,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject03,
+    }
+
+    item Journal_Subject03_05
+    {
+        DisplayName = Subject 03 Journal - Entry 5,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject03,
+    }
+
+    item Journal_Subject03_06
+    {
+        DisplayName = Subject 03 Journal - Entry 6,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject03,
+    }
+
+    item Journal_Subject03_07
+    {
+        DisplayName = Subject 03 Journal - Entry 7,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject03,
+    }
+
+    item Journal_Subject03_08
+    {
+        DisplayName = Subject 03 Journal - Entry 8,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject03,
+    }
+
+    item Journal_Subject03_09
+    {
+        DisplayName = Subject 03 Journal - Entry 9,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject03,
+    }
+
+    item Journal_Subject03_10
+    {
+        DisplayName = Subject 03 Journal - Entry 10,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject03,
+    }
+
+    item Journal_Subject04_01
+    {
+        DisplayName = Subject 04 Journal - Entry 1,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject04,
+    }
+
+    item Journal_Subject04_02
+    {
+        DisplayName = Subject 04 Journal - Entry 2,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject04,
+    }
+
+    item Journal_Subject04_03
+    {
+        DisplayName = Subject 04 Journal - Entry 3,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject04,
+    }
+
+    item Journal_Subject04_04
+    {
+        DisplayName = Subject 04 Journal - Entry 4,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject04,
+    }
+
+    item Journal_Subject04_05
+    {
+        DisplayName = Subject 04 Journal - Entry 5,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject04,
+    }
+
+    item Journal_Subject04_06
+    {
+        DisplayName = Subject 04 Journal - Entry 6,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject04,
+    }
+
+    item Journal_Subject04_07
+    {
+        DisplayName = Subject 04 Journal - Entry 7,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject04,
+    }
+
+    item Journal_Subject04_08
+    {
+        DisplayName = Subject 04 Journal - Entry 8,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject04,
+    }
+
+    item Journal_Subject04_09
+    {
+        DisplayName = Subject 04 Journal - Entry 9,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject04,
+    }
+
+    item Journal_Subject04_10
+    {
+        DisplayName = Subject 04 Journal - Entry 10,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject04,
+    }
+
+    item Journal_Subject05_01
+    {
+        DisplayName = Subject 05 Journal - Entry 1,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject05,
+    }
+
+    item Journal_Subject05_02
+    {
+        DisplayName = Subject 05 Journal - Entry 2,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject05,
+    }
+
+    item Journal_Subject05_03
+    {
+        DisplayName = Subject 05 Journal - Entry 3,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject05,
+    }
+
+    item Journal_Subject05_04
+    {
+        DisplayName = Subject 05 Journal - Entry 4,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject05,
+    }
+
+    item Journal_Subject05_05
+    {
+        DisplayName = Subject 05 Journal - Entry 5,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject05,
+    }
+
+    item Journal_Subject05_06
+    {
+        DisplayName = Subject 05 Journal - Entry 6,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject05,
+    }
+
+    item Journal_Subject05_07
+    {
+        DisplayName = Subject 05 Journal - Entry 7,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject05,
+    }
+
+    item Journal_Subject05_08
+    {
+        DisplayName = Subject 05 Journal - Entry 8,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject05,
+    }
+
+    item Journal_Subject05_09
+    {
+        DisplayName = Subject 05 Journal - Entry 9,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject05,
+    }
+
+    item Journal_Subject05_10
+    {
+        DisplayName = Subject 05 Journal - Entry 10,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject05,
+    }
+
+    item Journal_Subject06_01
+    {
+        DisplayName = Subject 06 Journal - Entry 1,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject06,
+    }
+
+    item Journal_Subject06_02
+    {
+        DisplayName = Subject 06 Journal - Entry 2,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject06,
+    }
+
+    item Journal_Subject06_03
+    {
+        DisplayName = Subject 06 Journal - Entry 3,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject06,
+    }
+
+    item Journal_Subject06_04
+    {
+        DisplayName = Subject 06 Journal - Entry 4,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject06,
+    }
+
+    item Journal_Subject06_05
+    {
+        DisplayName = Subject 06 Journal - Entry 5,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject06,
+    }
+
+    item Journal_Subject06_06
+    {
+        DisplayName = Subject 06 Journal - Entry 6,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject06,
+    }
+
+    item Journal_Subject06_07
+    {
+        DisplayName = Subject 06 Journal - Entry 7,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject06,
+    }
+
+    item Journal_Subject06_08
+    {
+        DisplayName = Subject 06 Journal - Entry 8,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject06,
+    }
+
+    item Journal_Subject06_09
+    {
+        DisplayName = Subject 06 Journal - Entry 9,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject06,
+    }
+
+    item Journal_Subject06_10
+    {
+        DisplayName = Subject 06 Journal - Entry 10,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject06,
+    }
+
+    item Journal_Subject07_01
+    {
+        DisplayName = Subject 07 Journal - Entry 1,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject07,
+    }
+
+    item Journal_Subject07_02
+    {
+        DisplayName = Subject 07 Journal - Entry 2,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject07,
+    }
+
+    item Journal_Subject07_03
+    {
+        DisplayName = Subject 07 Journal - Entry 3,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject07,
+    }
+
+    item Journal_Subject07_04
+    {
+        DisplayName = Subject 07 Journal - Entry 4,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject07,
+    }
+
+    item Journal_Subject07_05
+    {
+        DisplayName = Subject 07 Journal - Entry 5,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject07,
+    }
+
+    item Journal_Subject07_06
+    {
+        DisplayName = Subject 07 Journal - Entry 6,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject07,
+    }
+
+    item Journal_Subject07_07
+    {
+        DisplayName = Subject 07 Journal - Entry 7,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject07,
+    }
+
+    item Journal_Subject07_08
+    {
+        DisplayName = Subject 07 Journal - Entry 8,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject07,
+    }
+
+    item Journal_Subject07_09
+    {
+        DisplayName = Subject 07 Journal - Entry 9,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject07,
+    }
+
+    item Journal_Subject07_10
+    {
+        DisplayName = Subject 07 Journal - Entry 10,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Weight = 0.05,
+        Icon = Journal_Subject07,
+    }
+}

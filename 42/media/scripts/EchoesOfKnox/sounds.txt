@@ -1,0 +1,12 @@
+module EchoesOfKnox
+{
+    sound CompassBeep
+    {
+        category = Item,
+        clip
+        {
+            file = media/sound/compass_beep.wav,
+            distanceMax = 5,
+        }
+    }
+}

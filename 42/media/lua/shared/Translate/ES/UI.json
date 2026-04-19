@@ -1,0 +1,18 @@
+{
+  "UI_EOK_CompassOn": "Reloj Brújula: ENCENDIDO",
+  "UI_EOK_CompassOff": "Reloj Brújula: APAGADO",
+  "UI_EOK_Toggle": "Encender/Apagar Reloj Brújula",
+  "UI_EOK_NoBattery": "El Reloj Brújula necesita batería",
+  "UI_EOK_Found": "Recuperaste %1",
+  "UI_EOK_AllSeven": "Recuperaste las 7 placas. La verdad sobre Knox es tuya.",
+  "UI_EOK_DogTag1": "Placa - Sujeto 01 (Elliot James Hargreaves, Médico)",
+  "UI_EOK_DogTag2": "Placa - Sujeto 02 (Claire Elizabeth Vance, Enfermera)",
+  "UI_EOK_DogTag3": "Placa - Sujeto 03 (Marcus Raymond Delaney, Cajero)",
+  "UI_EOK_DogTag4": "Placa - Sujeto 04 (Tobias Matthew Cross, Sacerdote)",
+  "UI_EOK_DogTag5": "Placa - Sujeto 05 (Rhett Alan Malone, Mecánico)",
+  "UI_EOK_DogTag6": "Placa - Sujeto 06 (Daniel Antonio Orozco, Profesor de Ed. Física)",
+  "UI_EOK_DogTag7": "Placa - Sujeto 07 (Isaac Mikhail Volkov, Biólogo)",
+  "UI_EOK_ReadNote": "Leer nota",
+  "UI_EOK_NoteHint": "Notas una nota doblada cerca...",
+  "UI_EOK_ReadDiary": "Leer entrada del diario"
+}

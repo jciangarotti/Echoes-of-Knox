@@ -1,0 +1,18 @@
+{
+  "UI_EOK_CompassOn": "Compass Watch: ON",
+  "UI_EOK_CompassOff": "Compass Watch: OFF",
+  "UI_EOK_Toggle": "Toggle Compass Watch",
+  "UI_EOK_NoBattery": "Compass Watch needs battery",
+  "UI_EOK_Found": "Recovered %1",
+  "UI_EOK_AllSeven": "All 7 dog tags recovered. The truth of Knox is yours.",
+  "UI_EOK_DogTag1": "Dog Tag - Subject 01 (Elliot James Hargreaves, Physician)",
+  "UI_EOK_DogTag2": "Dog Tag - Subject 02 (Claire Elizabeth Vance, RN)",
+  "UI_EOK_DogTag3": "Dog Tag - Subject 03 (Marcus Raymond Delaney, Store Clerk)",
+  "UI_EOK_DogTag4": "Dog Tag - Subject 04 (Tobias Matthew Cross, Priest)",
+  "UI_EOK_DogTag5": "Dog Tag - Subject 05 (Rhett Alan Malone, Auto Mechanic)",
+  "UI_EOK_DogTag6": "Dog Tag - Subject 06 (Daniel Antonio Orozco, P.E. Teacher)",
+  "UI_EOK_DogTag7": "Dog Tag - Subject 07 (Isaac Mikhail Volkov, Biologist)",
+  "UI_EOK_ReadNote": "Read Note",
+  "UI_EOK_NoteHint": "You notice a folded note nearby...",
+  "UI_EOK_ReadDiary": "Read Journal Entry"
+}
