@@ -72,6 +72,11 @@ that's the mod. You'll find out in the game.
       of the experience.
 - [x] **Bilingual (v0.4):** full English + Chilean Spanish, auto-detected
       from the game language (Options → Language).
+- [x] **Collection window (v0.5):** press **J** to open a dedicated
+      window that shows every subject and your progress (dog tag +
+      10 journal entries per subject). Names stay hidden as "Subject
+      NN — ???" until you recover the dog tag. Clicking a discovered
+      entry reopens it for re-reading.
 - [x] Right-click context menu with on/off toggle.
 - [x] Beep frequency scales with distance.
 - [x] Random dog-tag placement within a 2000-tile radius around spawn,

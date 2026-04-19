@@ -22,6 +22,13 @@ local DEFAULTS_EN = {
     UI_EOK_ReadNote   = "Read Note",
     UI_EOK_NoteHint   = "You notice a folded note nearby...",
     UI_EOK_ReadDiary  = "Read Journal Entry",
+    UI_EOK_CollectionTitle  = "Echoes Collection",
+    UI_EOK_OverallProgress  = "Overall progress",
+    UI_EOK_TagRecovered     = "Dog tag recovered",
+    UI_EOK_TagMissing       = "Dog tag missing",
+    UI_EOK_UnknownSubject   = "???",
+    UI_EOK_Journals         = "Journal entries",
+    UI_EOK_OpenCollection   = "Open Echoes Collection (J)",
 }
 
 local DEFAULTS_ES = {
@@ -41,6 +48,13 @@ local DEFAULTS_ES = {
     UI_EOK_ReadNote   = "Leer nota",
     UI_EOK_NoteHint   = "Notas una nota doblada cerca...",
     UI_EOK_ReadDiary  = "Leer entrada del diario",
+    UI_EOK_CollectionTitle  = "Colección de Echoes",
+    UI_EOK_OverallProgress  = "Progreso total",
+    UI_EOK_TagRecovered     = "Placa recuperada",
+    UI_EOK_TagMissing       = "Placa perdida",
+    UI_EOK_UnknownSubject   = "???",
+    UI_EOK_Journals         = "Entradas de diario",
+    UI_EOK_OpenCollection   = "Abrir Colección de Echoes (J)",
 }
 
 local cachedLang

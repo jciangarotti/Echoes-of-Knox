@@ -14,5 +14,13 @@
   "UI_EOK_DogTag7": "Placa - Sujeto 07 (Isaac Mikhail Volkov, Biólogo)",
   "UI_EOK_ReadNote": "Leer nota",
   "UI_EOK_NoteHint": "Notas una nota doblada cerca...",
-  "UI_EOK_ReadDiary": "Leer entrada del diario"
+  "UI_EOK_ReadDiary": "Leer entrada del diario",
+  "UI_EOK_CollectionTitle": "Colección de Echoes",
+  "UI_EOK_OverallProgress": "Progreso total",
+  "UI_EOK_TagRecovered": "Placa recuperada",
+  "UI_EOK_TagMissing": "Placa perdida",
+  "UI_EOK_UnknownSubject": "???",
+  "UI_EOK_Journals": "Entradas de diario",
+  "UI_EOK_OpenCollection": "Abrir Colección de Echoes (J)"
 }
+

@@ -14,5 +14,13 @@
   "UI_EOK_DogTag7": "Dog Tag - Subject 07 (Isaac Mikhail Volkov, Biologist)",
   "UI_EOK_ReadNote": "Read Note",
   "UI_EOK_NoteHint": "You notice a folded note nearby...",
-  "UI_EOK_ReadDiary": "Read Journal Entry"
+  "UI_EOK_ReadDiary": "Read Journal Entry",
+  "UI_EOK_CollectionTitle": "Echoes Collection",
+  "UI_EOK_OverallProgress": "Overall progress",
+  "UI_EOK_TagRecovered": "Dog tag recovered",
+  "UI_EOK_TagMissing": "Dog tag missing",
+  "UI_EOK_UnknownSubject": "???",
+  "UI_EOK_Journals": "Journal entries",
+  "UI_EOK_OpenCollection": "Open Echoes Collection (J)"
 }
+
