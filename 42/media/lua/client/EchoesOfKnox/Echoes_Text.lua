@@ -60,11 +60,19 @@ local DEFAULTS_ES = {
 local cachedLang
 
 -- Devuelve "ES" o "EN" segun la config del juego. Cacheado despues del
--- primer lookup para no repetir pcall.
+-- primer lookup para no repetir la llamada al Translator.
 function Echoes.getLang()
     if cachedLang then return cachedLang end
     local lang = "EN"
-    local ok, v = pcall(function() return getCore():getOptionLanguage() end)
+    local ok, v = pcall(function()
+        if Translator and Translator.getLanguage then
+            local langObj = Translator.getLanguage()
+            if langObj and langObj.name then
+                return langObj:name()
+            end
+        end
+        return nil
+    end)
     if ok and v then
         local s = tostring(v):upper()
         if s == "ES" or s == "AR" then
