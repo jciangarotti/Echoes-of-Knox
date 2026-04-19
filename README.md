@@ -1,11 +1,16 @@
 # Echoes of Knox
 
-A Project Zomboid (Build 42) mod that digs into the lore of the Knox Infection.
-Somewhere in Knox County, seven military **dog tags** are buried — the
-experimental subjects of **Dr. Thomas McGrew**, a US Army scientist who was
-researching the origin of the outbreak. Find them all with the **Compass
-Watch** — a wrist-mounted compass that beeps faster the closer you get — and
-piece together what really happened.
+A Project Zomboid (Build 42) mod about the seven lives that, quietly and
+without anyone noticing, led to the Knox apocalypse.
+
+Seven people went missing in Knox County in the year before the outbreak.
+Seven **dog tags** have been scattered across the map. Find them with the
+**Compass Watch** — a wrist-mounted tracker that beeps faster the closer
+you get — recover the journals they left behind, and piece together what
+was really happening in the months before everything fell apart.
+
+Who they were, what was done to them, and how their stories connect —
+that's the mod. You'll find out in the game.
 
 ![poster](poster.png)
 
@@ -27,26 +32,17 @@ piece together what really happened.
    - Close (20–100): every 0.5 seconds.
    - Right next to it (< 20): nearly continuous beeping.
 5. **⚠ Subject Bosses** — Each dog tag is carried by one of the missing
-   people, now reanimated. Each wears the clothing of their civilian
-   profession (doctor, nurse, store clerk, priest, mechanic, P.E. teacher,
-   biologist) — use that to recognize who you're fighting before you read
-   the tag. They're faster (sprinter) and tougher (2× health) than normal
-   zombies. You have to kill them and loot the corpse to recover the tag.
-   Come prepared.
-6. Repeat until you've recovered all 7. The watch drains its internal
-   battery while the compass is on.
-
-## Subjects
-
-| # | Profession | Name |
-|---|-----------|------|
-| 01 | Physician | Elliot James Hargreaves |
-| 02 | Registered Nurse | Claire Elizabeth Vance |
-| 03 | Supermarket Clerk | Marcus Raymond Delaney |
-| 04 | Catholic Priest | Tobias Matthew Cross |
-| 05 | Auto Mechanic | Rhett Alan Malone |
-| 06 | P.E. Teacher | Daniel Antonio Orozco |
-| 07 | Biologist / ex-Agroindustrial researcher | Isaac Mikhail Volkov |
+   people, now reanimated. Each wears the clothing they had in life — use
+   that as your first clue about who you're fighting. They're faster
+   (sprinter) and tougher (2× health) than normal zombies. Kill them and
+   loot the corpse to recover the tag. Come prepared.
+6. **Journals.** Scattered across Knox County are additional readable
+   journal pages — fragments of the seven lives, out of order, waiting
+   to be pieced together. Most are stashed where each person used to
+   spend their days; some ended up in ordinary houses, cars and offices.
+   Right-click → **Read Journal Entry**.
+7. Repeat until you've recovered all 7 tags. The watch drains its
+   internal battery while the compass is on.
 
 ## Installation
 
@@ -66,18 +62,16 @@ piece together what really happened.
 - [x] 7 dog tags with unique icons.
 - [x] Compass Watch spawnable in civilian and military loot.
 - [x] **Subject bosses (v0.2):** each dog tag is guarded by a civilian-
-      dressed boss zombie (doctor, nurse, clerk, priest, mechanic, P.E.
-      teacher, biologist) with 2× health and forced sprinter. Drops the
+      dressed boss zombie with 2× health and forced sprinter. Drops the
       tag when killed.
-- [x] **Journal entries (v0.3):** 70 additional readable journal entries
-      (10 per subject) scattered across Knox County. Each entry reveals
-      part of the character's story — from mundane daily life before the
-      outbreak, through the moment they were marked, to their last
-      words. Predominantly stashed in thematic locations (physician's
-      journals in clinics, mechanic's in garages, priest's in churches,
-      etc.) and partly in generic civilian loot. Right-click → **Read
-      Journal Entry** to read. The seven stories cross and overlap:
-      finding them out of order is part of the experience.
+- [x] **Journal entries (v0.3):** 70 additional readable journal pages
+      scattered across Knox County. Predominantly stashed where each
+      person used to spend their days, and partly in ordinary loot
+      (houses, cars, offices). Right-click → **Read Journal Entry**.
+      The stories cross and overlap: finding them out of order is part
+      of the experience.
+- [x] **Bilingual (v0.4):** full English + Chilean Spanish, auto-detected
+      from the game language (Options → Language).
 - [x] Right-click context menu with on/off toggle.
 - [x] Beep frequency scales with distance.
 - [x] Random dog-tag placement within a 2000-tile radius around spawn,
@@ -85,7 +79,6 @@ piece together what really happened.
 - [x] Watch battery drains while the compass is on.
 - [x] Notification when you've recovered all 7.
 - [ ] Multiplayer / shared server state.
-- [ ] Richer pickup lore (McGrew's journal entries as full tooltips).
 
 ## Known limitations
 
