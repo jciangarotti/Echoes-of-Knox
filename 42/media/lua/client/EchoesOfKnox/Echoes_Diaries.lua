@@ -38,7 +38,7 @@ local SUBJECT_HEADERS = {
     [5] = {
         name = "Rhett \"Hawk\" Malone",
         role = "Auto Mechanic (ex-pilot)",
-        source = "Margin notes in a 1978 Beechcraft King Air flight manual, shop pencil. Short lines. Many crossings-out.",
+        source = "Margin notes in a 1978 Beechcraft King Air flight manual, shop pencil. Short lines. Many crossings-out. The later entries, unlike the early ones, run long - as if he finally had something to say.",
     },
     [6] = {
         name = "Daniel \"Danny\" Orozco",
@@ -330,9 +330,11 @@ God granted me two beautiful things at the end. The first was forgiving the old 
 DIARY_TEXTS[5] = {}
 
 DIARY_TEXTS[5][1] = [[
-January — no day.
+January - no day.
 
 Started the sedan project. Ford '71. Adapted a system I read about in an old avionics magazine. If it works, the thing will drive itself. If it doesn't, I roll it off the ravine and laugh. I won't say this out loud to myself, but this project is saving me this winter.
+
+Yesterday I had another flash, number twenty-something this year. A new customer I'd never seen walked into the shop two days later. My hands shook when I recognized him. He didn't notice.
 ]]
 
 DIARY_TEXTS[5][2] = [[
@@ -342,51 +344,51 @@ Tobias came in with the Plymouth. That car's a corpse and he knows it and I know
 ]]
 
 DIARY_TEXTS[5][3] = [[
-April — Tuesday.
+April - Tuesday.
 
-Eyesight's worse. Today I mistook a 10mm for an 11mm and that's already a problem. Told the customer I had sand in my lenses. Inside, I collapsed. Tomorrow I'm not opening the shop. Tomorrow I'm going to drink a whole bottle and sleep till evening. Saturday I pick up again. Life carries on like this, one day at a time, the way drunks do it.
+Eyesight's worse. Today I mistook a 10mm for an 11mm and that's already a problem. Told the customer I had sand in my lenses. Inside, I collapsed. My vision is deteriorating fast.
 ]]
 
 DIARY_TEXTS[5][4] = [[
-May — one night.
+July - Saturday - FLASH 1.
 
-Thought about her today for the first time in months. My ex. Diane. I let her go. Didn't write. Didn't call. She's in Florida, I think. Has kids, I think. Not mine. She never forgave me for loving the air more than her. And she didn't forgive me because she was right. The air was always my thing. When I lost the air, I lost her too — only she'd already left earlier.
+SOMETHING HUGE HAPPENED. I was adjusting a servomotor on the sedan, crouched under the wheel, and my sight went and a flash hit me - long, two seconds that lasted an hour. I saw MYSELF driving the sedan down an empty highway, thin, dirty, fast. Next to me sat a priest. Yes. A priest from Rosewood that I don't know, one I've never in my life gotten into any car with. Cassock torn. Yelling something at me. Behind us, people running. People running wrong. I came out of the flash slamming my head against the steering wheel and vomited beside the shop. This isn't a regular flash. This is something big. This is something ugly.
 ]]
 
 DIARY_TEXTS[5][5] = [[
-June — Wednesday.
+July - Sunday - FLASH 2.
 
-Tobias told me God is a mechanic. Been turning it over. There's something to it. A mechanic looks at the engine, takes it apart, puts it back together. Doesn't expect the engine to pray. The engine works or it doesn't. I like that idea of God. A God who doesn't want you to say anything, who wants you to keep going. I'll tell Tobias next time.
+I went to mass. First time since Mom died. Drove out to Rosewood, walked into Saint Anne's, sat at the back. When the priest came out to the altar I almost fell. It was him. It was exactly him. I stayed until the end and then went up to speak with him. I told him kind lies, asked if we knew each other, if he'd ever brought a car to the shop. He answered politely. No, we hadn't met, not ever. I drove back slow and afraid of myself. Tobias, if you ever read this, I'm sorry in advance. I don't know what we're going to live through together. But we're going to live through something. And it won't be pretty.
 ]]
 
 DIARY_TEXTS[5][6] = [[
-July — Saturday.
+August - Thursday - FLASH 3.
 
-The sedan moved three meters on its own. THREE METERS ON ITS OWN. Today was the first day. Filmed it with my neighbor's old camera. Then I sat at the wheel and drove those three meters without touching anything, hands in my lap, and laughed harder than I'd laughed since the cockpit of a 737. If I die tomorrow, let whoever finds this know: IT WORKED.
+Went to Riverside for a part. A man and a woman were walking on the opposite sidewalk, close but not touching. I didn't know them. A flash hit me. I saw the same man on his knees in front of her, saying "we'll be together all our lives, till death do us part." Two seconds. I froze. I turned around to see them better and THEY turned around too, but to separate. She walked into the clinic. He crossed to the other side of the street. As if they didn't know each other. As if they had choreography for it. Right there I understood one thing: the flashes aren't always the future. Sometimes they're the secret.
 ]]
 
 DIARY_TEXTS[5][7] = [[
-August — Sunday night.
+September - Monday - FLASH 4.
 
-That feeling came back. The one from over the Atlantic. Thirteen years ago, and today — both times. Like the sky knew me. Like I had a special pass. I can't explain it. Wish I believed in something so I could say it without sounding like an idiot. I'll tell Tobias. But at the shop. With bad coffee. If I can't tell him at the shop with bad coffee, I can't tell him anywhere.
+A guy walked into the shop with a motorcycle leaking oil. Gym teacher. I shook his hand and the contact triggered a flash. NOW THEY COME THROUGH TOUCH. I saw him sitting on a gym bench next to the same woman from Riverside, the one from the secret couple. He was putting a white capsule in her hand and saying something in her ear. I didn't hear the words but I felt them. Ugly. I threw him out of the shop. Almost yelled at him. He left the bike lying there, leaking oil. I locked myself inside and cried from rage. Why do they show me these things? So I'll avoid them? So I'll understand them? Or just to screw with me?
 ]]
 
 DIARY_TEXTS[5][8] = [[
-September — an envelope was left.
+September - Wednesday - THE BLACKOUT.
 
-Someone came into the shop while I was in the bathroom. Left an envelope on the workbench. Inside: an apple, a metal tag with the number 05, a typewritten note. They offer me forty thousand dollars to pilot a King Air three miles down a private runway. They call me "captain." Captain. Thirteen years without hearing that word directed at me. With forty thousand I finish the sedan. But it's not the money. It's the word. I can't refuse the word. Sunday I go.
+Pulled the paperwork on the motorcycle guy. Daniel Orozco. Iron Will in West Point. Went to find him, to ask what capsule that was, what woman that was, what the hell was going on. Didn't go into the gym. On the sidewalk across the street an old man with a white beard was coming out of a coffee shop. I looked at him. He looked at me. And the longest flash of my life hit me. Almost a whole film. A warehouse with fluorescent lights. Seven cots. IV lines. Me on one of them. The priest on another. The gym teacher on another. The woman. Her lover. AN OLD STORE CLERK I DON'T KNOW. And the old man with the white beard. The same old man standing three meters from me. BUT IN THE FLASH THE OLD MAN WASN'T THE ONE LOCKING THE OTHERS IN. HE WAS ONE OF THE ONES LOCKED IN. My nose started bleeding. I blacked out on the sidewalk. Woke up in a hospital. The chart said vasovagal crisis. Pure bullshit.
 ]]
 
 DIARY_TEXTS[5][9] = [[
-[Shop paper, folded inside the sedan's dashboard]
+September - Friday - I take the job.
 
-i climbed into the cabin out of pure habit. wasn't even a flying job. just driving. touched the instruments. smelled the leather. sat down. felt the feeling again, the atlantic one. and then a voice behind me said good flight captain and a pinprick in the neck and it was over. i'm not afraid. if anyone reads this, the sedan works, it's under the tarp at the back of the shop. let someone use it who needs it. let them fly. R.M.
+Had another flash last night. Me climbing into a King Air. A voice saying "good flight, captain." A pinprick. Black. I understood that no matter what, I end up there. Today a package came to the shop with an apple, a tag with the number 05, and a letter offering me the King Air job. If it's inevitable, let me be the one walking toward it, not them coming to get me while I sleep. I'll go. The sedan stays covered with the tarp. If someone finds it, let them know: it works. Three meters it drove on its own. It was a little but it was enough. I hope someone uses it. I hope it's good for something. The flashes weren't lies. I always knew where I was going.
 ]]
 
 DIARY_TEXTS[5][10] = [[
 [Last entry, in the margin of the King Air manual, written blind]
 
-i can't see well from the other eye now. i write from memory over the manual i know by heart. the sky didn't come. an old man came. fine. not that different. the sky was always a metaphor anyway. today tobias held my hand before i went under. said a prayer in a low voice. i didn't understand the words but i understood the voice. captain of what, tobias. of nothing. captain of having flown. that's enough. good flight.
+i can't see well from the other eye now. i write from memory over the manual i know by heart. the sky didn't come. an old man came. fine. not that different. the sky was always a metaphor anyway. today tobias held my hand before i went under. said a prayer in a low voice. i didn't understand the words but i understood the voice. the warehouse vision came true and the old man was there with us as one of us. i was right again and i wish i hadn't been. captain of what, tobias. of nothing. captain of having seen. that's enough. good flight.
 ]]
 
 -- ============================================================================

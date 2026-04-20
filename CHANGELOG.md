@@ -5,6 +5,41 @@ All notable changes to **Echoes of Knox** are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.6.0] - 2026-04-19
+
+### Added
+- **Rhett Malone now has visions.** His diary arc is completely rewritten:
+  he starts getting "flashes" - two-second premonitions that mix future
+  events, hidden present secrets, and the final warehouse scene where
+  all seven subjects (including a white-bearded old man who turns out
+  to be *one of the locked-in*, not the captor) share their fate. Nine
+  of his ten entries are rewritten; entry 2 (the Plymouth / bad coffee
+  with Tobias) survives as the last moment of ordinary life. The header
+  description hints at the arc: *"The later entries, unlike the early
+  ones, run long - as if he finally had something to say."*
+- **Mysterious Note rewritten.** Replaced the previous short tip-off
+  with a long five-part letter from the author who set up the cabin:
+  FIRST (survive), SECOND (the Compass Watch, how to find it, the
+  seven tags), THIRD (what I won't tell you, the four towns), FOURTH
+  (you are biologically different), LAST (signature). The new letter
+  explicitly tells the player they can strip watches off dead or alive
+  wearers, that Muldraugh / Riverside / Rosewood / West Point are the
+  four search areas, and hints at the "eighth subject" payoff from
+  Isaac's journal.
+
+### Fixed
+- **Spanish accent rendering.** `ISModalRichText` in PZ B42 uses
+  `UIFont.NewSmall` which lacks Latin Extended glyphs, so every
+  accented character (`á é í ó ú ñ ¿ ¡ —`) rendered as `?`. All
+  hardcoded Spanish Lua content (`NOTE_TEXT_ES` and the 7 headers +
+  70 diary bodies in `Echoes_Diaries_ES.lua`) is now ASCII-normalized
+  (`sobrevivió` → `sobrevivio`, `¿qué?` → `?que?`, etc.). Same pattern
+  used by the Changadex mod. Accents still render correctly in
+  `ES/UI.json` and `ES/ItemName.json` — those go through PZ's
+  translator which uses fonts with Unicode support.
+- New helper `tools/strip_accents.ps1` documents the exact character
+  map used.
+
 ## [0.5.1] - 2026-04-19
 
 ### Fixed
